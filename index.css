@@ -1,0 +1,208 @@
+body {
+    background-color: rgb(8, 8, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    position: absolute;
+
+}
+
+#container{
+    color: aliceblue;
+}
+
+
+#barra a{
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+#barra {
+
+    position: fixed;
+    float: left;
+    top:10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    z-index: 10;
+
+
+}
+
+#barra1 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#barra2 {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.bar{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#caja2 {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    color: aliceblue;
+
+    width: 520px;
+    height: 160px;
+    background-color:  rgba(0, 0, 0, 0.445);
+    padding: 10px;
+}
+#caja22 h1 { display:inline; }
+
+.caja {
+    color: aliceblue;
+    position: relative;
+
+}
+
+#img{
+    width: 100%;
+    height: 600px;
+}
+
+
+#buttonplay {
+    position: absolute;
+    top: 510px;
+    left: 50px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 1ex;
+    padding: 6px;
+}
+#buttonsave {
+    position: absolute;
+    top: 510px;
+    left: 120px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 1ex;
+    padding: 6px;
+    height: 28px;
+
+}
+
+#edad {
+    position: absolute;
+    top: 495px;
+    left: 230px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding: 6px;
+}
+.carrusel {
+    color: aliceblue;
+    margin-left: 20px;
+
+}
+#series {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 5;
+
+
+}
+.serie {
+    margin-right: 40px;
+    width: max-content;
+    position: relative;
+
+}
+
+#text{
+    display: flex;
+    align-items: center;
+}
+
+#starm {
+    margin-left: 10px;
+}
+#savem {
+    margin-left: 30px;
+}
+
+#num {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    border-radius: 1ex;
+}
+#bplay {
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 5px;
+    border-radius: 1ex;
+    border-style: none;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+#movies {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 5;
+
+
+
+}
+.movie {
+    margin-right: 40px;
+    width: max-content;
+    position: relative;
+
+
+}
+.movie img{
+    border-radius: 1.5ex;
+}
+.serie img{
+    border-radius: 1.5ex;
+}
+
+
+
+.saved {
+    background-color: aqua;
+}
+
+.nonsaved{
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+#pg {
+    position: absolute;
+    top: 495px;
+    left: 200px;
+}
